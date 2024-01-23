@@ -1,0 +1,64 @@
+.navOuter{
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgb(212, 204, 204);
+    z-index: 4;
+    background-color: #202124;
+}
+
+.innerNav{
+    width: 97%;
+}
+
+.navListItem{
+    position: relative;
+    padding: 10px 15px;
+    border-bottom: 4px solid transparent ;
+
+}
+
+.navListItemActive{
+    border-bottom: 4px solid rgb(114, 114, 240) ;
+
+}
+
+.badge{
+    width: 16px;
+    height: 16px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cb112d;;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 12px;
+    position: absolute;
+    top: 5px;
+    left: 25px;
+
+
+}
+
+
+/* media queries */
+
+@media screen and (min-width:600px){
+    .inner-nav{
+        width: 60%;
+    }
+}
+
+.svg{
+    height: 20px;
+}
+
+@media  screen and (max-width: 630px) {
+    .svg{
+        height: 17px;
+    }
+
+
+    
+}

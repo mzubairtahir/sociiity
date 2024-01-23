@@ -1,0 +1,11 @@
+.model{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+.sampleImage{
+    max-width: 250px;
+    max-height: 380px;
+}

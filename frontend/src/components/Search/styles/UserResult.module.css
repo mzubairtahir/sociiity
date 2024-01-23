@@ -1,0 +1,21 @@
+.user{
+    box-shadow: 1px 1px 3px 1px white;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.userImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.followBtn{
+    outline: none;
+    border: none;
+    background-color: #2899F3;
+    color:  white;
+    padding: 5px;
+    border-radius: 5px;
+
+}

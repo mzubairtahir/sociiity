@@ -1,0 +1,20 @@
+.model{
+    background-color: white;
+    padding: 25px 20px;
+    border-radius: 15px;
+ 
+    max-width: 90%;
+    display: flex;
+    /* justify-content: center; */
+}
+
+
+.inputsContainer{
+    padding:  10px ;
+}
+
+.inputsContainer input{
+    padding: 3px;
+    border: 2   px solid black;
+    border-radius: 5px;
+}

@@ -1,0 +1,5 @@
+#ignore mediamanage.
+
+/media
+*.pyc
+.env

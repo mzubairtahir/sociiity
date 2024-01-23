@@ -1,0 +1,23 @@
+.messageOuter {
+  position: fixed;
+  top: 10%;
+  z-index: 4;
+  color: #232d3f;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  display: flex;
+  left: 50%;
+  width: 90%;
+  max-width: 400px;
+  justify-content: space-between;
+
+  background-color: white;
+  box-shadow: 1px 1px 8px 2px black;
+}
+
+@media screen and (min-width: 500px) {
+  .messageOuter {
+    font-size: 18px;
+  }
+}

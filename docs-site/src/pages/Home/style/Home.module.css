@@ -1,0 +1,90 @@
+.topContainer {
+  background-color: #191c21;
+  width: 100%;
+  background-image: url("../assets/herobg.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px);
+}
+
+.hero {
+  flex-direction: column;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroImg {
+  width: 300px;
+}
+
+.heroTitle {
+  color: white;
+  text-align: center;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.heroTitle > h1 {
+  font-size: 50px;
+}
+
+.secondTitle {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  font-size: 22px;
+}
+
+@media screen and (max-width: 500px) {
+  .hero {
+    padding: 50px 20px;
+  }
+
+  .heroTitle > h1 {
+    font-size: 38px;
+  }
+
+  .secondTitle {
+    font-size: 18px;
+  }
+}
+
+.shakeAnimation {
+  animation: shake 2s ease-in-out infinite;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateY(-5px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: translateY(5px);
+  }
+}
+
+
+.signupRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 30px 5px;
+}

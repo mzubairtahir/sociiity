@@ -1,0 +1,18 @@
+.model{
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: #333439;
+    width: 100%;
+    max-width: 300px;
+}
+
+.modelHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.mainConainer{
+    
+    padding: 30px 20px;
+}

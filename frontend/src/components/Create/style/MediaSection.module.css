@@ -1,0 +1,24 @@
+.mediabg {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.smwrap {
+  gap: 17px;
+}
+
+.message {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  text-align: center;
+  color: black;
+  border-radius: 15px;
+  background-color: #ff9966;
+  padding: 20px;
+}

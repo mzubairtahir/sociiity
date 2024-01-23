@@ -1,0 +1,29 @@
+.searchBody{
+    text-align: center;
+    padding: 50px 5px;
+}
+
+
+
+.searchInput{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    max-width: 500px;
+
+}
+
+.searchInput:focus{
+    border: none;
+    outline: none;
+}
+
+.searchButtonWrapper{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #ADD8E6;
+    cursor: pointer;
+
+}

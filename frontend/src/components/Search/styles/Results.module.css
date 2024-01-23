@@ -1,0 +1,47 @@
+.usersResults{
+    row-gap: 10px;
+}
+
+.upWrapper{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px ;
+    height: 40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+
+}
+
+.mediaResults{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.addCityModel{
+    background-color: white;
+}
+
+.filterValue{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.687);
+}
+
+.crossWrapper{
+    background-color: white;
+    height: min-content;
+    border-radius: 50%;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+
+}

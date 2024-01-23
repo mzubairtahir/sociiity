@@ -1,0 +1,19 @@
+.img{
+    width: 70px;
+}
+
+.closeWrap{
+    background-color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -15px;
+    right: -4px;
+    cursor: pointer;
+}
+
+

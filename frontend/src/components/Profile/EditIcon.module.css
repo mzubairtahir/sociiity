@@ -1,0 +1,20 @@
+.editWrapper{
+    position: absolute;
+    background-color: #232D3F;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px 2px rgb(215, 166, 75);
+    
+}
+
+.editWrapper svg{
+    fill: rgb(224, 219, 219);
+    width: 50%;
+    height: 50%;
+}

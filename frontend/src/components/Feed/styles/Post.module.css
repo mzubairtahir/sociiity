@@ -1,0 +1,63 @@
+.post {
+  padding: 10px 0;
+}
+
+.profilePic {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+
+.usrenameAndTimeWrapper {
+  flex-grow: 2;
+  padding-left: 60px;
+  padding-left: 5px;
+}
+
+.username {
+  font-size: 20px;
+}
+
+.postTime {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.postMedia {
+  max-height: 600px;
+  overflow: hidden;
+
+  padding: 10px 0;
+}
+
+.interaction {
+  padding: 10px;
+  margin: 3px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  text-align: center;
+  background-color: transparent;
+}
+
+.interaction > svg {
+  width: 30px;
+  fill: white;
+  height: 30px;
+}
+
+.likedButton > svg {
+  fill: #00ecff;
+}
+
+.interactionNumber {
+  padding: 0 5px;
+  color: wheat;
+}
+
+@media screen and (min-width: 425px) {
+  .post {
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,33 @@
+.notificationsContainer {
+  padding: 10px 5px;
+}
+.notification {
+  display: flex;
+  background-color: #2f3135;;
+  align-items: center;
+  justify-content: space-between;
+
+
+  padding: 10px;
+  border-radius: 10px;
+  margin: 3px 0;
+}
+
+.notification_unread{
+    /* background-color: #2f3135;; */
+
+}
+
+.notificationBody {
+  margin-left: 5px;
+  width: calc(100% - 50px);
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Ari;
+  font-size: 16px;
+}
+
+.dot{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgb(8, 102, 255);
+}

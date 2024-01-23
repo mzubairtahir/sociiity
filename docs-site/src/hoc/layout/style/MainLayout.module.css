@@ -1,0 +1,31 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 70px;
+}
+
+.main {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  .outerContainer{
+  margin-top: 10px;
+
+  }
+  .main {
+    padding: 10px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+  }
+}

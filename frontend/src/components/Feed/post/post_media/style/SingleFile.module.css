@@ -1,0 +1,14 @@
+.singleFileWrapper {
+  width: 100%;
+  background-color: black;
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 500px;
+  height: auto;
+
+  border: 1px solid black;
+}

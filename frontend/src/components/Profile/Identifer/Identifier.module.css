@@ -1,0 +1,17 @@
+.name{
+    font-size:  20px;
+}
+
+.editIcon{
+        right: 5%;
+        top: 0;
+        width: 30px;
+        height: 30px;
+}
+
+@media  screen and (min-width:768px) {
+    .name{
+        font-size: 26px;
+    }
+    
+}
