@@ -22,6 +22,11 @@ The project is centered around the concept of a social media platform designed f
 
 3. **Feed:**
    - Access a basic news feed to view posts from users in the same city.
+4.  **Post like dislike:**
+    - Users can like or dislike the post
+
+5. **Share posts:**
+   - Users can share a post url with others.
 
 4. **Profile Edit:**
    - Users can edit their profile picture, name, and address.
