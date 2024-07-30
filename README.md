@@ -50,7 +50,3 @@ The project repository is organized into three main sub-directories:
 1. **frontend**: Contains the React-based frontend implementation of Sociiity.
 2. **backend**: Contains the Django-based backend code for Sociiity.
 3. **docs-site**: contains the React-based documentation site for Sociiity.
-
-## Note:
-
-I built this project as a startup idea, meaning I had to make changes quickly. As a result, I could not maintain very high quality code.
